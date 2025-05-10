@@ -521,7 +521,7 @@ void game_turn(long int turn)
 	
 	tally_outcome=sixes(ntally);
 	
-	if (tally_outcome>0)
+	if ((tally_outcome>0) && (nf_facing==1))
 	{
 		// the nightfighter might potentially be able to spot a bomber
 		// if visibility is good, the nightfighter can see a bomber in its own hex, and the hex immediately ahead
