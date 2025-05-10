@@ -15,7 +15,7 @@ The bot does not replace any components of the physical game, it merely plays th
 
 In this document, I am assuming you are using a Linux system. If using Windows or MacOS, I suggest you set up an Linux virtual machine in which to run the bot. A simple walkthrough on how create a Linux virtual machine can be found on the Ubuntu website:
 
-[https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox][https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox]
+[https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox]
 
 
 
