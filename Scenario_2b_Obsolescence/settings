@@ -1,0 +1,22 @@
+18 27
+24
+3
+1  3  2  2
+5  7  2  2
+10 12 2  2
+0
+1
+2
+0
+
+
+dimensions of the map (normally 18×27 hexes)
+game length (24 turns)
+number of bombers (3 bombers)
+parameters of 1st bomber - earliest possible turn of entry (1), latest possible turn of entry (3), speed on odd-numbered turns (2 hexes), speed on even-numbered turns (also 2 hexes)
+parameters of 2nd bomber - earliest possible turn of entry (4), latest possible turn of entry (6), speed on odd-numbered turns (2 hexes), speed on even-numbered turns (also 2 hexes)
+parameters of 3rd bomber - earliest possible turn of entry (7), latest possible turn of entry (9), speed on odd-numbered turns (2 hexes), speed on even-numbered turns (also 2 hexes)
+verbosity. 0 means a normal game. 1 means that the bot will reveal all hidden information, including the positions of the bombers, at all times. This is useful for learning to play the game.
+number of ground radars (1)
+search value of 1st radar (2 - Freya radar)
+range of the night fighter's AI radar (0 means no AI radar)
