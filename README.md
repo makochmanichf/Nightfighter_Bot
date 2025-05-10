@@ -51,6 +51,26 @@ The bot will read in the scenario setup from the file "settings". It will genera
 
 The player controls the night fighter and the radar search. Every game turn, the player is asked to type in the night fighter's position and facing:
 
+```
+Turn 4
+ Phase 1: Bombers move.
+ Phase 2: Fighter moves.
+  Enter the fighter's position and facing:
+**1508 0     **
+  nf_position = 1508
+  nf_facing   = 0
+ Phase 3: Ground radar search.
+ The radar search values are as follows: 2
+  Enter the radar search hexes:
+**1209**
+  search hexes: 1209 (2) 
+
+  Radar search in 1209(2) : NO CONTACT, place a sweep counter at hex 1309
+ Phase 4: AI radar search.
+ Phase 5: Tally phase.
+  The nightfighter gets 3 tally dice.
+```
+
 The position is the hex occupied by the night fighter after its movement for the turn. The hex numbers must be entered without the leading zero (e.g., the hex in the top left corner of the map is 101 not 0101).
 
 The facing is either 1 or 0. 1 means the fighter is facing "down", the same direction as the incoming bombers. It can then attempt to detect a bomber, either visually (tallying), or with AI radar. 0 means the fighter is facing any other direction, in which case it cannot attempt detect a bomber - it is moving too fast relative to the bombers. Note that this is a modification of the original rules 
