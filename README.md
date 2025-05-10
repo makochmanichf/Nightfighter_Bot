@@ -3,7 +3,7 @@
 This program is intended as a game aid for the game "Nightfighter," designed by Lee Brimmicombe-Wood and published by GMT Games. It plays the role of the umpire, thus enabling some of the scenarios to be played on one's own. 
 
 
-## Prequisites
+## Prerequisites
 
 
 ### 1. A physical copy of Nightfighter.
