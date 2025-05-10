@@ -56,13 +56,13 @@ Turn 4
  Phase 1: Bombers move.
  Phase 2: Fighter moves.
   Enter the fighter's position and facing:
-**1508 0     **
+1508 0     
   nf_position = 1508
   nf_facing   = 0
  Phase 3: Ground radar search.
  The radar search values are as follows: 2
   Enter the radar search hexes:
-**1209**
+1209
   search hexes: 1209 (2) 
 
   Radar search in 1209(2) : NO CONTACT, place a sweep counter at hex 1309
